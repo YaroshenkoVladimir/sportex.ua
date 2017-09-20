@@ -1,0 +1,295 @@
+@charset "utf-8";
+*{
+margin: 0;
+padding: 0;
+outline: none;
+}
+
+html{height: 100%;}
+
+body{
+width: 100%;
+height: 100%;
+background-color: #fff;
+color: #333;
+font-family: "Segoe UI", Arial, sans-serif;
+font-size: 1em;
+line-height: 135%; 
+float: left;
+}
+
+img{
+max-width: 100%;
+height: auto;
+width: auto\9; 
+}
+
+a{
+color: red;
+text-decoration: none;
+}
+
+a:hover {
+color: blue;
+}
+
+a, a:hover{
+-webkit-transition: all.6s ease;
+-o-transition: all.6s ease;
+-moz-transition: all.6s ease;
+-ms-transition: all.6s ease;
+transition: all.6s ease;
+}
+
+.clear{
+clear: both;
+}
+
+/*Стилі для шапки*/
+
+header{
+width: 98%;
+float: left;
+padding: 1%;
+background-color: #fafafa;
+border-bottom: 2px solid silver;
+margin-bottom: 20px;
+}
+
+header #logo{
+width: 28%;
+float: left;
+}
+
+header #logo a{
+color: #939393;
+font-size: 2em;
+font-family: Times New Roman, sans-serif;
+}
+
+header #logo span{
+color: red;
+}
+header #menuHead{
+width: 44%;
+float: left;
+}
+
+header #menuHead div{
+float: left;
+padding: 5px;
+background-color: #c8c8c8;
+border-radius: 5px;
+color: #ffffff
+} 
+
+header #menuHead div:hover {
+background-color: #e7e7e7;
+}
+
+header #regAuth{
+width: 28%;
+float: left;
+text-align: right;
+font-size: 1em;
+}
+
+/* Стилі для всього документа*/
+
+#wrapper{
+width: 98%;
+margin-left: 1%;
+float: left;
+}
+
+/* Стилі для лівої колонки*/
+
+#wrapper #leftCol{
+width: 80%;
+float: left;
+}
+
+#wrapper #leftCol #bigArticle{
+width: 96%;
+background-color: #f6f6f6;
+padding: 1%;
+float: left;
+border: 1px solid silver;
+}
+
+#wrapper #leftCol #bigArticle img{
+width: 550px;
+height: 300px;
+float:left;
+padding: 1%;
+margin-right: 10px;
+} 
+
+#wrapper #leftCol #bigArticle h2, #wrapper #leftCol .article h2{
+margin-top: 10px;
+margin-bottom: 10px;
+color: black;
+background: #f4f4f4; 
+}
+
+#wrapper #leftCol #bigArticle h2:hover, #wrapper #leftCol .article h2:hover{
+color:gray; 
+}
+
+
+
+#wrapper #leftCol .article {
+width: 45.3%;
+height: 20%;
+margin: 1%;
+background-color: #f6f6f6;
+padding: 1%;
+float: left;
+border: 1px solid silver;
+}
+
+#wrapper #leftCol .article img{
+width: 340px;
+height: 200px;
+float: left;
+padding: 1%;
+margin-right: 10px;
+}
+/* Стилі для правої колонки*/
+
+#wrapper #rightCol{
+float: left;
+width: 20%;
+}
+
+/* Вертикальне меню */ 
+
+#wrapper #rightCol .nav { 
+margin-bottom: 20px; 
+} 
+
+#wrapper #rightCol .nav li{ 
+display: block; 
+line-height: 30px; 
+margin-bottom: 5px; 
+width: 100%; 
+} 
+#wrapper #rightCol .nav li a{ 
+display:block; 
+height:30px; 
+text-transform:uppercase; 
+font-size:16px; 
+font-weight:bold; 
+line-height:32px; 
+padding:0 0 0 25px; 
+text-decoration:none; 
+color: #6A6262; 
+background: #f4f4f4; 
+border:solid 1px silver; 
+} 
+
+/* Подсветка наведденого пункта */ 
+#wrapper #rightCol .nav li a:hover{ 
+background: #35C835; 
+color:#fff; 
+}
+
+#wrapper #rightCol .banner{
+width: 100%;
+float: left;
+margin-bottom: 20px;
+border: 2px solid silver;
+box-sizing: border-box;
+}
+
+#wrapper #leftCol input {
+width: 40%;
+margin-left: 30%;
+float: left;
+border-radius: 5px;
+border: 2px solid silver;
+padding: 5px;
+color: black;
+margin-bottom: 10px;
+font-size: 1.2em;
+}
+
+#wrapper #leftCol input:focus, #wrapper #leftCol textarea:focus{
+border: 2px solid #f78080;
+}
+
+#wrapper #leftCol input#done:hover {
+border: 2px solid #f8d881;
+}
+
+#wrapper #leftCol textarea {
+width: 50%;
+height: 150px;
+margin-left: 25%;
+float: left;
+border-radius: 5px;
+border: 2px solid silver;
+padding: 5px;
+margin-bottom: 10px;
+font-size: 1.2em;
+resize: none;
+}
+
+#wrapper #leftCol #messagShow {
+font-size: 1.2em;
+float: left;
+color: red;
+width: 100%;
+text-align: center;
+
+}
+
+/* Стилі для about*/
+
+#wrapper #leftCol #about_us{
+width: 94%;
+border: 1px solid silver;
+background-color: #f4f4f4;
+padding: 2%;
+}
+
+
+/* Стилі для galery*/
+
+
+
+
+/* Стилі для Footer*/
+
+footer{
+width: 98%;
+float: left;
+padding: 1%;
+background-color: #fafafa;
+border-top: 2px solid silver;
+margin-top: 10px;
+}
+
+footer #social{
+float: left;
+width: 25%;
+}
+
+footer #rights{
+float: right;
+width: 50%;
+text-align: right;
+font-size: 1.1em;
+}
+
+footer #social img{
+width: 30px;
+height: 30px;
+float: left;
+margin-right: 5px;
+}
+
+footer #info{
+float: left;
+width: 25%;
+}

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Admin panel"
+AuthUserFile C:/wamp/www/sportex.ua/admin/.htpasswd
+Require valid-user
