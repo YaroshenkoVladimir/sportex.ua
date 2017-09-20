@@ -1,1 +1,3 @@
 # sportex.ua
+Web sait, php, html, css ...
+@ Все права защищены by YaroshenkoVladimir
